@@ -1,0 +1,257 @@
+
+/* @font-face {
+    font-family: Arial;
+    src: url('../fonts/Arial/Arialn.ttf');
+} */
+
+:root {
+    --color-main: #ED2B2B;  
+}
+
+
+.arial{
+    font-family: Arial;
+}
+
+.mainPage{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.blackbg{
+    background-color: black;
+}
+
+.youwecont{
+    height: 20%;
+}
+
+.youwe{
+    width: 50%;
+}
+
+
+.borderSpecial{
+    border: 3px solid var(--color-main);
+    border-radius: 28px;
+}
+
+.mbPhoneIcon{
+    width: 30px;
+}
+
+.inputField{
+    color: white !important;
+}
+
+.inputField:focus{
+    color: white !important;
+    border-width: 0px !important;
+    border-color: transparent;
+    box-shadow: none !important;
+}
+
+input[type="password"]::placeholder {
+
+    text-align: left;
+}
+
+.loginBtn{
+    width: 100%;
+    border-radius: 28px;
+    color: var(--color-main);
+    font-weight: bold;
+    background-color: white;
+}
+
+.flexCol{
+    flex-direction: column;
+}
+
+.downskirt{
+    width: 100%;
+    height: 15px;
+    background-color: var(--color-main);
+}
+
+.headerPart{
+    z-index: 999;
+    /* top: 0px; */
+}
+.topbar{
+    height: 50px;
+    background-color: var(--color-main);
+    display: flex;
+    align-items: center;
+}
+
+.clipboard_icon{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.288);
+    border-radius: 50%;
+}
+
+.clipboard_icon img{
+    width: 50%;
+    height: 60%;
+}
+
+.add_icon, .bell_icon{
+    width: 25px;
+    height: 25px;
+}
+
+.statbox{
+    width: 27%;
+    aspect-ratio: 1/1;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.colorMain{
+    color: var(--color-main);
+}
+
+.totalBox{
+    background-color: var(--color-main);
+    
+}
+
+.boxtext{
+    font-size: 13px;
+}
+
+.mainPart{
+    z-index: 0;
+}
+
+.eachOrder{
+    height: 80px;
+    /* border: 3px solid yellowgreen; */
+}
+
+.orderDetails{
+    font-weight: bolder;
+}
+
+.orderAvatar{
+    width: 16%;
+    
+    border-color: black !important;
+    border-radius: 5px;
+    aspect-ratio: 1 / 1;
+}
+
+.orderAvatar img{
+    border-radius: 5px;
+}
+
+.timeBox{
+    border-radius: 12px;
+    position: relative;
+}
+
+.lateText{
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    color: rgba(0, 0, 0, 0.644);
+}
+
+.delvBoyStat{
+    width: 2rem;
+}
+
+.cakeAddAvt{
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.322);
+}
+
+.add_icon_box{
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+}
+
+label{
+    font-weight: bolder !important;
+}
+
+.orderInput{
+    border-radius: 0px;
+    border: 1px solid black;
+}
+
+.clockinTime{
+    color: #9F9F9F;
+    font-size: 14vw;
+}
+
+.clockBtn{
+    font-size: 8vw;
+    border-radius: 28px;
+    color: var(--color-main);
+    font-weight: bold;
+    background-color: white;
+}
+
+.imageCont{
+    width: 90%;
+    aspect-ratio: 1/1;
+    border-radius: 16px;
+}
+
+.deleteIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 3%;
+    top: -3%;
+}
+.deleteIcon img{
+    width: 70%;
+    height: 70%;
+}
+
+.bikeMeterInput{
+    border-left-width: 0px;
+    border-radius: 0px !important;
+    font-size: 30px !important;
+    font-weight: bolder !important;
+}
+
+.bikeMeterInput {
+
+    text-align: center;
+}
+
+.bikeMeterInputPrepend{
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 0px !important;
+    border: none;
+    background: white;
+}
+
+.shareLocBtn{
+    margin-top: 50%;
+    border-radius: 12px;
+    background-color: var(--color-main);
+    font-weight: bold;
+    color: white;
+}
+
+
+

@@ -233,7 +233,7 @@ label{
 .bikeMeterInput{
     border-left-width: 0px;
     border-radius: 0px !important;
-    font-size: 20px !important;
+    /* font-size: 20px !important; */
     font-weight: bolder !important;
     text-align: center;
 }

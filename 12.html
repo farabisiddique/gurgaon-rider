@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Gurgaon Admin</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="mainPage d-flex flex-column justify-content-start align-items-center position-relative">
+
+        <div class="container-fluid m-0 p-0 sticky-top headerPart" style="background-color: white;">
+            <div class="container-fluid topbar d-flex justify-content-between align-items-center">
+                <div class="clipboard_icon">
+                    <img src="./img/cake_icon.png" alt="">
+                </div>
+    
+                <h2 class="text-light m-0">KHATA BOOK</h2>
+    
+                <div class="other_icon">
+                    <img src="./img/bell_icon.png" class="bell_icon">
+                    
+                </div>
+                 
+            </div>
+    
+        </div>
+        
+
+        <div class="container-fluid mainPart">
+            
+            <div class="w-100 d-flex flex-column align-items-center justify-content-center giveAmountCont">
+                <h1 class="giveAmount">&#8377;5060</h1>
+                <h2 class="fw-normal">YOU WILL GIVE</h2>
+            </div>
+            <div class="w-100 d-flex align-items-center justify-content-end">
+                <a href="#">
+                    <i class="bi bi-plus-circle text-dark fw-bold mediumAddIcon"></i>
+                </a>
+            </div>
+
+            <div class="row">
+                <div class="col-5">
+                    <div class="form-group mb-3">
+                        <label for="details" class="form-label">Details</label>
+                        <input type="text" class="form-control orderInput" id="details" name="details" style="border-radius: 12px;">
+                    </div>
+                </div>
+                <div class="col-4 p-0">
+                    <div class="form-group mb-3">
+                        <label for="amount" class="form-label">Amount</label>
+                        <input type="number" class="form-control orderInput" id="amount" name="amount" style="border-radius: 12px;">
+                    </div> 
+                </div>
+                <div class="col-2 pe-0 mt-3 d-flex justify-content-center align-items-center">
+                    <div class="khataIconBox me-1">
+                        <img src="./img/pencil.png" alt="">
+                    </div>
+                    <div class="khataIconBox">
+                        <img src="./img/calendar.png" alt="">
+                    </div> 
+                </div>
+
+            </div>
+
+            <div class="container" style="background-color: #F1F2F4;">
+                <div class="container p-1 ps-2 pe-2">
+                    <div class="row mb-2">
+                        <div class="col-6 d-flex justify-content-start ps-2">
+                            <p class="columnName m-0 p-0">ENTRIES</p> 
+                        </div> 
+                        <div class="col-3 d-flex justify-content-end pe-0">
+                            <p class="columnName m-0 p-0">YOU GAVE</p> 
+                        </div>
+                        <div class="col-3 pe-0">
+                            <p class="columnName m-0 p-0 d-flex justify-content-end">YOU GOT</p>  
+                        </div>
+                    </div>
+
+                    <div class="row bg-white mt-0 mb-2 eachEntry">
+                        <div class="col-6 p-2">
+                            <p class="m-0 p-0 entryDate entryText">08 Jun 22 &middot; 02:23 PM </p> 
+                            <p class="m-0 p-0 entryText">
+                               <span class="entryBal">
+                                    Bal. &#8377;342
+                               </span> 
+                            </p>
+                            <p class="m-0 p-0 entryName entryText">plates</p>
+                        </div> 
+                        <div class="col-3 gaveEntry">
+                            <p class="m-0 p-0 text-danger gotEntryText">
+                                
+                            </p>
+                        </div>
+                        <div class="col-3 gotEntry">
+                              <p class="m-0 p-0 text-success gotEntryText">
+                                    &#8377;20
+                              </p> 
+                        </div>
+                    </div>
+
+                    <div class="row bg-white mt-0 mb-2 eachEntry">
+                        <div class="col-6 p-2">
+                            <p class="m-0 p-0 entryDate entryText">08 Jun 22 &middot; 02:23 PM </p> 
+                            <p class="m-0 p-0 entryText">
+                               <span class="entryBal">
+                                    Bal. &#8377;322
+                               </span> 
+                            </p>
+                            <p class="m-0 p-0 entryName entryText">order1</p>
+                        </div> 
+                        <div class="col-3 gaveEntry">
+                            <p class="m-0 p-0 text-danger gotEntryText">
+                                &#8377;550
+                            </p> 
+                        </div>
+                        <div class="col-3 gotEntry">
+                              <p class="m-0 p-0 text-success gotEntryText">
+                                    
+                              </p> 
+                        </div>
+                    </div>
+
+                    <div class="row bg-white mt-0 mb-2 eachEntry">
+                        <div class="col-6 p-2">
+                            <p class="m-0 p-0 entryDate entryText">08 Jun 22 &middot; 01:07 PM </p> 
+                            <p class="m-0 p-0 entryText">
+                               <span class="entryBal">
+                                    Bal. &#8377;872
+                               </span> 
+                            </p>
+                            <p class="m-0 p-0 entryName entryText">fuel</p>
+                        </div> 
+                        <div class="col-3 gaveEntry">
+                            <p class="m-0 p-0 text-danger gotEntryText">
+                                
+                            </p>
+                        </div>
+                        <div class="col-3 gotEntry">
+                              <p class="m-0 p-0 text-success gotEntryText">
+                                    &#8377;189
+                              </p> 
+                        </div>
+                    </div>
+
+                    <div class="row bg-white mt-0 mb-2 eachEntry">
+                        <div class="col-6 p-2">
+                            <p class="m-0 p-0 entryDate entryText">08 Jun 22 &middot; 01:04 PM </p> 
+                            <p class="m-0 p-0 entryText">
+                               <span class="entryBal">
+                                    Bal. &#8377;683
+                               </span> 
+                            </p>
+                            <p class="m-0 p-0 entryName entryText">water</p>
+                        </div> 
+                        <div class="col-3 gaveEntry">
+                            <p class="m-0 p-0 text-danger gotEntryText">
+                                
+                            </p>
+                        </div>
+                        <div class="col-3 pendingEntry gotEntry">
+                              <p class="m-0 p-0 text-success gotEntryText">
+                                    &#8377;700
+                              </p>
+                              <p class="processingText mb-0 entryText text-light p-1">
+                                    Processing
+                              </p> 
+                        </div>
+                    </div>
+
+                    <div class="row bg-white mt-0 mb-2 eachEntry">
+                        <div class="col-6 p-2">
+                            <p class="m-0 p-0 entryDate entryText">08 Jun 22 &middot; 12:52 PM </p> 
+                            <p class="m-0 p-0 entryText">
+                               <span class="entryBal">
+                                    Bal. &#8377;17
+                               </span> 
+                            </p>
+                            <p class="m-0 p-0 entryName entryText">order2</p>
+                        </div> 
+                        <div class="col-3 gaveEntry">
+                            <p class="m-0 p-0 text-danger gotEntryText">
+                                &#8377;500
+                            </p> 
+                        </div>
+                        <div class="col-3 gotEntry">
+                              <p class="m-0 p-0 text-success gotEntryText">
+                                    
+                              </p> 
+                        </div>
+                    </div>
+
+                    <div class="row bg-white mt-0 mb-2 eachEntry">
+                        <div class="col-6 p-2">
+                            <p class="m-0 p-0 entryDate entryText">08 Jun 22 &middot; 02:23 PM </p> 
+                            <p class="m-0 p-0 entryText">
+                               <span class="entryBal">
+                                    Bal. &#8377;342
+                               </span> 
+                            </p>
+                            <p class="m-0 p-0 entryName entryText">plates</p>
+                        </div> 
+                        <div class="col-3 gaveEntry">
+                            <p class="m-0 p-0 text-danger gotEntryText">
+                                
+                            </p>
+                        </div>
+                        <div class="col-3 gotEntry">
+                              <p class="m-0 p-0 text-success gotEntryText">
+                                    &#8377;20
+                              </p> 
+                        </div>
+                    </div>
+
+                    <div class="row bg-white mt-0 mb-2 eachEntry">
+                        <div class="col-6 p-2">
+                            <p class="m-0 p-0 entryDate entryText">08 Jun 22 &middot; 02:23 PM </p> 
+                            <p class="m-0 p-0 entryText">
+                               <span class="entryBal">
+                                    Bal. &#8377;342
+                               </span> 
+                            </p>
+                            <p class="m-0 p-0 entryName entryText">plates</p>
+                        </div> 
+                        <div class="col-3 gaveEntry">
+                            <p class="m-0 p-0 text-danger gotEntryText">
+                                
+                            </p>
+                        </div>
+                        <div class="col-3 gotEntry">
+                              <p class="m-0 p-0 text-success gotEntryText">
+                                    &#8377;20
+                              </p> 
+                        </div>
+                    </div>
+                    
+                </div> 
+            </div>
+            
+            
+           
+            
+
+        </div>
+        
+        
+        <div class="downskirt position-fixed bottom-0">
+
+        </div>
+
+    </div>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    
+</body>
+</html>

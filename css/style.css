@@ -202,6 +202,11 @@ label{
     background-color: white;
 }
 
+.clockBtn:active, .clockBtn:visited, .clockBtn:focus, .clockBtn:focus-visible{
+    background-color: white !important;
+    color: black !important;
+}
+
 .imageCont{
     width: 90%;
     aspect-ratio: 1/1;
@@ -233,6 +238,12 @@ label{
     text-align: center;
 }
 
+.bikeMeterInput:focus{
+    
+    border-color: black;
+    box-shadow: none !important;
+}
+
 
 
 .bikeMeterInputPrepend{
@@ -250,6 +261,111 @@ label{
     font-weight: bold;
     color: white;
 }
+
+.shareLocBtn:active, .shareLocBtn:visited, .shareLocBtn:focus, .shareLocBtn:focus-visible{
+    background-color: white !important;
+    color: black !important;
+}
+
+.orderContainer{
+    height: 18vh;
+}
+
+.orderPrice{
+    background-color: var(--color-main);
+}
+
+.orderImageCont{
+    aspect-ratio: 16/9;
+    /* border: 2px solid black; */
+}
+
+.orderInput:checked{
+    background-color: white !important;
+    background-image: url('../img/check_icon.png') !important;
+    border-color: black;
+    
+}
+
+.giveAmount{
+    color: var(--color-main);
+    font-size: 7vh;
+}
+
+.giveAmountCont h2{
+    color: rgba(0, 0, 0, 0.432);
+}
+
+.mediumAddIcon{
+    font-size: 26px;
+}
+
+.khataIconBox{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.khataIconBox img{
+    width: 50%;
+    height: 50%;
+}
+
+.columnName{
+    font-size: 10px;
+    color: #9F9F9F;
+    font-weight: bolder;
+}
+
+
+
+.eachEntry{
+    border-radius: 6px;
+}
+
+.gotEntry{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.gaveEntry{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #FFF5F6;
+}
+
+.entryText{
+    font-size: 10px;
+}
+
+.entryBal{
+    background-color: #F2F6F5;
+}
+
+.gotEntryText{
+    font-weight: bolder;
+}
+
+.processingText{
+    background-color: var(--color-main);
+    border-radius: 6px;
+    font-weight: bolder;
+}
+
+.pendingEntry{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+
 
 
 
